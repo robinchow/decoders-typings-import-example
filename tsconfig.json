@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {},
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["dom", "es2015.promise", "es5"],
+        "importHelpers": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
